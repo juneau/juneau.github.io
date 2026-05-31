@@ -1,54 +1,63 @@
-<!DOCTYPE HTML>
-
+<!doctype html>
 <html lang="en">
-	<head>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?"/>
-		<title>Andrew Juneau's website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<a rel="me" href="https://scholar.social/@juneau">Mastodon</a>
-	</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="color-scheme" content="dark" />
+        <title>Andrew Juneau</title>
+        <meta name="description" content="Andrew Juneau — attorney." />
+        <link rel="canonical" href="https://www.andrewjuneau.com/" />
+        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="favicon.ico" />
+        <link rel="stylesheet" href="assets/style.css" />
+<style>
+            .card {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="card">
+                <h1>Andrew Juneau</h1>
+                <p class="tagline">Attorney. Aptronym.</p>
 
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+                <ul class="links">
+                    <li>
+                        <a href="https://github.com/juneau/" rel="me noopener">
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <use href="assets/icons.svg#github"></use>
+                            </svg>
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/andrewjuneau"
+                            rel="me noopener"
+                        >
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <use href="assets/icons.svg#linkedin"></use>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <!-- href: HTML-entity-encoded mailto -->
+                        <a
+                            href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#97;&#110;&#100;&#114;&#101;&#119;&#106;&#117;&#110;&#101;&#97;&#117;&#46;&#99;&#111;&#109;"
+                            rel="noopener"
+                        >
+                            <svg viewBox="0 0 24 24" aria-hidden="true">
+                                <use href="assets/icons.svg#mail"></use>
+                            </svg>
+                            E-mail
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </main>
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Andrew Juneau</h1>
-						<p></i>Attorney. Aptronym.</p>
-						<nav>
-							<ul>
-								<li><a href="https://www.instagram.com/juneauwhoiam/" class="fab fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://github.com/juneau/" class="fab fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.linkedin.com/in/andrewjuneau" class="fab fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<!-- <li><a href="http://andrewjuneau.com/cv.pdf" class="fas fa-file-alt"><span class="label">CV</span></a></li> -->
-								<li><a href="mailto:contact@andrewjuneau.com" class="fas fa-envelope"><span class="label">Email</span></a></li>
-								<li><a href="https://keybase.io/juneau" class="fab fa-keybase"><span class="label">Keybase</span></a></li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Body -->
-
-
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Andrew Juneau. This was all made using free stuff. <a href="/about-site">See how</a>.</span>
-					</footer>
-
-			</div>
-		</div>
-
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-
-	</body>
+        <footer>&#169; Andrew Juneau. Built with free, open tools.</footer>
+    </body>
 </html>
